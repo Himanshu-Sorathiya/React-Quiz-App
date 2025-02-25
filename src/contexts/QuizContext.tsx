@@ -5,7 +5,7 @@ import {
 	useEffect,
 	useReducer,
 } from 'react';
-import questionsData from '../../data/questions.ts';
+import questionsData from '../data/questions.ts';
 
 const QuizContext = createContext(
 	{} as {
@@ -165,4 +165,3 @@ function useQuiz() {
 }
 
 export { QuizProvider, useQuiz };
-
